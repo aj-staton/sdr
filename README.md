@@ -6,3 +6,6 @@ Assuming you're using APT as a package tool, the following command can install t
 sudo apt install gnuradio
 ```
 If you're on another distrubution/operating system, GNURadio can be [installed from source with packages here](https://wiki.gnuradio.org/index.php/InstallingGR). 
+
+## Key Fob
+f = 314.05 MHz
