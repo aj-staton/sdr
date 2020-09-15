@@ -18,5 +18,6 @@ To install GQRX for an RF Waterfall plot on Linux, see [the GitHub repo](https:/
 ## Challenges
 Setup and installation of GNURadio was not too challenging; but, to use GNURadio, one must know what frequencies are used to transmit data. Beyond radio stations from ~80 MHz to ~180 Mhz, I was stumped. I was looking for an application that would generate an RF Waterfall plot to identify these tranmission frequencies. I first attempted to use SDR#. On my native linux host, this Windows application seemed to do more harm than good. I eventually stumbled upon [GQRX](https://github.com/csete/gqrx). This is how I was able to find frequencies to intercept.
 
+The Frequency Sink doesn't determine listening frequency; the source block does.
 
 
