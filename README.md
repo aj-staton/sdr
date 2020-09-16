@@ -2,13 +2,13 @@
 These are all Digital Signal Processing projects using an SDR, specifically the [RTL SDR](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini.html).
 
 ## Setup and Installation
-Assuming you're using APT as a package tool, the following command can install the most recent, stable version of GNURadio:
+Assuming you're using APT as a package tool, the following command can install the most recent, stable versions of GNURadio and the package to interface with the RTL-SDR:
 ```bash
-sudo apt install gnuradio
+sudo apt install gnuradio gr-osmosdr
 ```
-If you're on another distrubution/operating system, GNURadio can be [installed from source with packages here](https://wiki.gnuradio.org/index.php/InstallingGR). 
+If you're on another Unix distrubution/operating system, [GNURadio can be installed from source with packages here](https://wiki.gnuradio.org/index.php/InstallingGR) and the same can be done for [Osmocom's package here](https://osmocom.org/projects/gr-osmosdr/wiki). 
 
-To install GQRX for an RF Waterfall plot on Linux, see [the GitHub repo](https://github.com/csete/gqrx).
+To install GQRX for an RF Waterfall plot on Linux, see [their GitHub repo](https://github.com/csete/gqrx).
 
 ## Goals
 - [X] Implement Frequency Modulation to listen to a radio station
