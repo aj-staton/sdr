@@ -1,7 +1,14 @@
 # Vehicle Key Fob Data
 
 ## The Idea
+Wireless key fobs communicate with the recievers in a vehicle to lock/unlock doors, activate the panic alarm, or even start the vehicle. My key (probably made in North America) communicates with the vehicle at ~315 MHz. Data is sent using [frequency-shift keying](https://en.wikipedia.org/wiki/Frequency-shift_keying). In other words, frequency changes correlate to binary on/off signals.
 
+#### How did I know FSK was used?
+The two differing frequencies across this FFT are a rather distinctive sign of this form of modulation. This more data was transmitted at `0` (the lower-frequency), since the gain of the signal is higher.
+![FSK Data on a FFT](/key-data/fsk.png)
+
+## If I replicate this signal, can I unlock your car?
+No. Vehicle manufacturers have implemented a rolling code as a form of encryption. Meaning, the signal changes slightly each time. If you were to jam my transmitted signal, then send your own replicated signal based off of that jam, then yes. In that case, my car would be unlocked. 
 
 ## Challenges
 **I needed a FIR filter; but, GNURadio's Filter Design Tool wouldn't work.**
