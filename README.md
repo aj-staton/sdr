@@ -13,7 +13,7 @@ To install GQRX for an RF Waterfall plot on Linux, see [their GitHub repo](https
 ## Goals
 - [X] Implement Frequency Modulation to listen to a radio station
 - [X] Extract data transmitted from a vehicle's key fob
-- [ ] Intercept (and figure out how to unencrypt) GSM Data 
+- [ ] Listen to GSM Data 
 - [ ] Intercept ISS satellite images
 
 ## Challenges
