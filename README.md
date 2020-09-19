@@ -19,4 +19,12 @@ To install GQRX for an RF Waterfall plot on Linux, see [their GitHub repo](https
 ## General Challenges
 Setup and installation of GNURadio was not too challenging; but, to use GNURadio, one must know what frequencies are used to transmit data. Beyond radio stations from ~80 MHz to ~180 Mhz, I was stumped. I was looking for an application that would generate an RF Waterfall plot to identify these tranmission frequencies. I first attempted to use SDR#. On my native linux host, this Windows application seemed to do more harm than good. I eventually stumbled upon [GQRX](https://github.com/csete/gqrx). This is how I was able to find frequencies to intercept.
 
+## Resources
+* [GNURadio's Wiki Tutorials](https://wiki.gnuradio.org/index.php/Tutorials)
+* [RF Replay Attacks](https://www.blackhillsinfosec.com/how-to-replay-rf-signals-using-sdr/)
+* [Stanford EE Homework Assignment](https://web.stanford.edu/class/ee26n/Assignments/Assignment5.html)
+* [FSK Demodulation in GNURadio](https://wirelesspi.com/fsk-demodulation-in-gnu-radio/)
+* [Video on Key Fob Data](https://www.youtube.com/watch?v=enLbgn1qBS4&t=1904s)
+* [Video on PSK Demodulation](https://www.youtube.com/watch?v=JMEyN_lvaiE&feature=youtu.be)
+* [RTL-SDR](https://www.rtl-sdr.com/)
 
