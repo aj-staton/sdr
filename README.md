@@ -1,5 +1,5 @@
 # Software Defined Radio
-These are all Digital Signal Processing projects using an SDR, specifically the [RTL SDR](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini.html) and GNURadio.
+These are Digital Signal Processing projects using an SDR, specifically the [RTL SDR](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini.html) and GNURadio.
 
 ## Setup and Installation
 Assuming you're using APT as a package tool, the following command can install the most recent, stable versions of GNURadio and the package to interface with the RTL-SDR:
