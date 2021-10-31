@@ -11,8 +11,8 @@ If you're on another Unix distrubution/operating system, [GNURadio can be instal
 To install GQRX for an RF Waterfall plot on Linux, see [their GitHub repo](https://github.com/csete/gqrx).
 
 ## Goals
-- [X] Implement FSK to listen to a radio station
-- [X] Extract data transmitted from a vehicle's key fob
+- [X] Implement Frequency Modulation to listen to a radio station
+- [X] Extract data transmitted by FSK from a vehicle's key fob
 - [ ] Listen to GSM Data 
 - [ ] Intercept ISS satellite images
 
